@@ -1,6 +1,5 @@
 # 🧭 Topologia ASCII – Ambiente Protegido (Firewall + IDS + Fail2Ban)
 ---
-```
                     [ Internet ]
                          |
                     +-----------+
@@ -27,4 +26,3 @@
              | Ubuntu    |
              | Hardened  |
              +-----------+
-```
