@@ -8,18 +8,21 @@ This project presents a set of practices to secure Linux servers, focusing on fi
 
 ## 📁 Estrutura do projeto / Project structure
 
-- 📄 [`scripts/firewall.sh`](./scripts/firewall.sh) – Regras básicas de firewall  
-- 📝 [`scripts/firewall.md`](./scripts/firewall.md) – Explicação do firewall com iptables  
+- 📄 [`scripts/firewall.sh`](./scripts/firewall.sh) – Regras básicas de firewall com iptables  
+- 📝 [`scripts/firewall.md`](./scripts/firewall.md) – Explicação técnica das regras de firewall  
 
-- 📄 [`scripts/fail2ban_setup.sh`](./scripts/fail2ban_setup.sh) – Instalação do Fail2Ban  
-- 📝 [`scripts/fail2ban_setup.md`](./scripts/fail2ban_setup.md) – Configuração e testes do Fail2Ban  
+- 📄 [`scripts/fail2ban_setup.sh`](./scripts/fail2ban_setup.sh) – Instala e configura Fail2Ban  
+- 📝 [`scripts/fail2ban_setup.md`](./scripts/fail2ban_setup.md) – Explicação técnica da configuração  
 
-- 📄 [`scripts/hardening_basico.sh`](./scripts/hardening_basico.sh) – Hardening básico de sistema  
-- 📝 [`scripts/hardening_basico.md`](./scripts/hardening_basico.md) – Explicação das boas práticas aplicadas  
+- 📄 [`scripts/hardening_basico.sh`](./scripts/hardening_basico.sh) – Ajustes básicos de segurança no sistema  
+- 📝 [`scripts/hardening_basico.md`](./scripts/hardening_basico.md) – Documentação de hardening aplicado  
 
-- 📝 [`docs/ids_ips_overview.md`](./docs/ids_ips_overview.md) – IDS/IPS: conceitos, ferramentas, aplicações  
+- 📄 [`scripts/ids_snort_setup.sh`](./scripts/ids_snort_setup.sh) – Instalação do IDS Snort para detecção de intrusões  
+- 📝 [`scripts/ids_snort_setup.md`](./scripts/ids_snort_setup.md) – Explicação do funcionamento do IDS Snort  
 
-- 📝 [`diagrams/ascii_security.md`](./diagrams/ascii_security.md) – Topologia ASCII do ambiente seguro
+- 📝 [`docs/ids_ips_overview.md`](./docs/ids_ips_overview.md) – Visão geral de IDS/IPS: Snort e Suricata  
+
+- 📝 [`diagrams/ascii_security.md`](./diagrams/ascii_security.md) – Diagrama ASCII do ambiente protegido
 
 ---
 
