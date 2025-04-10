@@ -1,4 +1,3 @@
-```bash
 #!/bin/bash
 
 # 🧱 Script: fail2ban_setup.sh
@@ -22,4 +21,3 @@ sudo systemctl restart fail2ban
 sudo systemctl enable fail2ban
 
 echo "✅ Fail2Ban configurado!"
-```
